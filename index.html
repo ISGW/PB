@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy/Paste Bin</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <h1>Copy/Paste Bin</h1>
+    <form id="pasteForm">
+        <label for="link">Link:</label>
+        <input type="text" id="link" name="link" required>
+        <br>
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description">
+        <br>
+        <button type="submit">Add Link</button>
+    </form>
+    <div id="linksContainer">
+        <!-- Links will be dynamically added here -->
+    </div>
+    <script src="script.js"></script> <!-- Include your JavaScript file -->
+</body>
+</html>
